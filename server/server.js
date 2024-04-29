@@ -28,6 +28,6 @@ db.once("connected", () => console.log("Connected to MongoDB!"));
 // ---------------------------------------------------------------------------------
 
 const salt = bcrypt.genSaltSync(10); // salt for password hashing
-const jwtSalt = "lshjogihqwoihq209u523h5klhdklhfowieh"; //jwt salt for signing tokens
+const jwtSalt = "hjgvkfdkytdsjfgkgudytdhf878thgf4w45fgcjvlf"; //jwt salt for signing tokens
 
 server.listen(3001, () => { console.log("Listening on port 3001"); });
